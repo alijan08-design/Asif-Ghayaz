@@ -1,0 +1,602 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Asif Ghayaz — Paintings & Drawings</title>
+  <meta name="description"
+    content="Portfolio of Asif Ghayaz — pen-and-ink and mixed-media paintings. Exhibitions, commissions, and contact." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600;700&display=swap"
+    rel="stylesheet">
+  <style>
+      :root {
+      --bg: #0b0b0d;
+      --panel: #0f1113;
+      --muted: #bfc5cc;
+      --accent-1: linear-gradient(135deg, #ffcf67 0%, #ff7a59 60%);
+      --accent-2: #ff7a59;
+      --card-glow: 0 10px 35px rgba(255, 122, 89, 0.08);
+      --max-width: 1200px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: radial-gradient(900px 400px at 10% 10%, rgba(255, 122, 89, 0.04), transparent),
+        radial-gradient(800px 350px at 90% 90%, rgba(255, 207, 103, 0.03), transparent), var(--bg);
+      color: #f7f7f8;
+      font-family: Inter, system-ui, Segoe UI, Arial;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .wrap {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 28px;
+    }
+
+    /* Header */
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+      padding: 12px 0;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .logo img {
+      width: 64px;
+      height: 64px;
+      border-radius: 12px;
+      background: var(--accent-1);
+      box-shadow: var(--card-glow);
+      object-fit: cover;
+    }
+
+    .identity h1 {
+      margin: 0;
+      font-family: Playfair Display, serif;
+      font-size: 20px;
+    }
+
+    .identity p {
+      margin: 0;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    nav {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: var(--muted);
+      text-decoration: none;
+      padding: 8px 12px;
+      border-radius: 10px;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      color: white;
+      background: rgba(255, 255, 255, 0.03);
+    }
+
+    .btn-contact {
+      background: var(--accent-2);
+      color: #111;
+      padding: 10px 14px;
+      border-radius: 12px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    /* Hero */
+    .hero {
+      display: grid;
+      grid-template-columns: 1fr 420px;
+      gap: 28px;
+      align-items: center;
+      margin-top: 18px;
+    }
+
+    .hero-left {
+      padding: 28px;
+      border-radius: 16px;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), transparent);
+      backdrop-filter: blur(6px);
+    }
+
+    .kicker {
+      display: inline-block;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.03);
+      color: var(--muted);
+      font-weight: 700;
+      font-size: 12px;
+    }
+
+    h2 {
+      font-family: Playfair Display, serif;
+      margin: 12px 0 6px;
+      font-size: 36px;
+    }
+
+    .tagline {
+      color: var(--muted);
+      font-size: 15px;
+      margin-bottom: 14px;
+    }
+
+    .actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      border: 0;
+      padding: 10px 14px;
+      border-radius: 12px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .btn-outline {
+      background: transparent;
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      color: var(--muted);
+    }
+
+    .hero-right {
+      position: relative;
+      height: 200px;
+      width: 380px;
+      border-radius: 14px;
+      overflow: hidden;
+      background: linear-gradient(180deg, rgba(255, 207, 103, 0.06), transparent);
+    }
+
+    .hero-right .art {
+      position: absolute;
+      inset: 0;
+      background-size: cover;
+      background-position: center;
+      transition: transform 1s ease;
+    }
+
+    .hero-right .overlay {
+      position: absolute;
+      inset: 0;
+    }
+
+    /* Gallery */
+    .masonry {
+      column-count: 3;
+      column-gap: 14px;
+    }
+
+    .card {
+      display: inline-block;
+      width: 100%;
+      margin: 0 0 14px;
+      border-radius: 12px;
+      overflow: hidden;
+      cursor: pointer;
+      background: rgba(255, 255, 255, 0.02);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .meta {
+      padding: 10px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    /* About */
+    .about {
+      display: grid;
+      grid-template-columns: 1fr 360px;
+      gap: 18px;
+    }
+
+    .bio,
+    .side-card {
+      padding: 18px;
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    /* Contact */
+    .contact-wrap {
+      display: grid;
+      grid-template-columns: 1fr 320px;
+      gap: 18px;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      background: transparent;
+      color: inherit;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 20px 0;
+      text-align: center;
+      color: var(--muted);
+    }
+
+    /* --- Responsive Improvements --- */
+    @media (max-width: 1024px) {
+      .hero {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-right {
+        order: -1;
+        height: 280px;
+      }
+
+      .masonry {
+        column-count: 2;
+      }
+
+      .about {
+        grid-template-columns: 1fr;
+      }
+
+      .contact-wrap {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .wrap {
+        padding: 16px;
+      }
+
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      nav {
+        width: 100%;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+      }
+
+      h2 {
+        font-size: 28px;
+      }
+
+      .hero-left {
+        padding: 20px;
+      }
+
+      .hero-right {
+        height: 220px;
+      }
+
+      .masonry {
+        column-count: 1;
+      }
+    }
+
+    @media (max-width: 480px) {
+      body {
+        font-size: 15px;
+      }
+
+      .logo img {
+        width: 52px;
+        height: 52px;
+      }
+
+      .identity h1 {
+        font-size: 18px;
+      }
+
+      .btn,
+      .btn-contact {
+        padding: 8px 12px;
+        font-size: 14px;
+      }
+
+      .hero-left {
+        padding: 16px;
+      }
+
+      h2 {
+        font-size: 24px;
+      }
+
+      .hero-right {
+        height: 200px;
+      }
+
+      .side-card,
+      .bio {
+        padding: 14px;
+      }
+
+      footer {
+        font-size: 13px;
+      }
+    }
+    
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo" aria-hidden><img src="images/logo.jpg" alt=""></div>
+        <div class="identity">
+          <h1>Asif Ghayaz</h1>
+          <p>Pen & Ink • Mixed Media • Pakistan</p>
+        </div>
+      </div>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="btn-contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="hero-left">
+          <span class="kicker">Featured Artist</span>
+          <h2>Drawn lines, layered memory</h2>
+          <p class="tagline">Asif Ghayaz crafts detailed pen-and-ink portraits and architectural studies that fold
+            together memory, place, and meticulous technique.</p>
+          <div class="actions">
+            <button class="btn btn-contact"
+              onclick="document.querySelector('#gallery').scrollIntoView({behavior:'smooth'})">View Gallery</button>
+            <button class="btn btn-outline"
+              onclick="document.querySelector('#contact').scrollIntoView({behavior:'smooth'})">Request
+              Commission</button>
+          </div>
+          <div style="margin-top:16px;color:var(--muted);font-size:13px">Exhibited across Pakistan • Works featured in
+            institutional publications</div>
+        </div>
+        <div class="hero-right" aria-hidden>
+          <div class="art" style="background-image:url(images/hero.webp); background-size: contain; background-repeat: no-repeat;">
+            <div class="overlay"></div>
+            <div class="meta">
+              <div style="font-size:13px;color:var(--muted)">Pen & ink on paper • 2024</div>
+            </div>
+          </div>
+      </section>
+
+      <section id="gallery">
+        <h3>Gallery</h3>
+        <div class="masonry" id="masonry">
+          <!-- replace src with actual images of Asif Ghayaz -->
+          <div class="card reveal"><img src="images/card1.webp" alt="Sunset Rhythm — 2024">
+            <div class="meta"><a href="images/card1.webp" style="text-decoration: none; color: #f7f7f8; font-weight: bolder;">View</a></div>
+          </div>
+          <div class="card reveal"><img src="images/card2.webp" alt="Quiet Valley — 2023">
+           <div class="meta"><a href="images/card2.webp" style="text-decoration: none; color: #f7f7f8; font-weight: bolder;">View</a></div>
+          </div>
+          <div class="card reveal"><img src="images/cr3 (1).webp" alt="The Thinker — 2022">
+        <div class="meta"><a href="images/cr3 (1).webp" style="text-decoration: none; color: #f7f7f8; font-weight: bolder;">View</a></div>
+          </div>
+          <div class="card reveal"><img src="images/cr3 (2).webp" alt="Blue Geometry — 2024">
+        <div class="meta"><a href="images/cr3 (2).webp" style="text-decoration: none; color: #f7f7f8; font-weight: bolder;">View</a></div>
+          </div>
+          <div class="card reveal"><img src="images/cr3 (3).webp" alt="Interior Study (Commission)">
+        <div class="meta"><a href="images/cr3 (3).webp" style="text-decoration: none; color: #f7f7f8; font-weight: bolder;">View</a></div>
+          </div>
+          <div class="card reveal"><img src="images/cr3 (4).webp" alt="Distant Shore — 2020">
+        <div class="meta"><a href="images/cr3 (4).webp" style="text-decoration: none; color: #f7f7f8; font-weight: bolder;">View</a></div>
+          </div>
+          <div class="card reveal"><img src="images/cr3.webp" alt="Distant Shore — 2020">
+        <div class="meta"><a href="images/cr3.webp" style="text-decoration: none; color: #f7f7f8; font-weight: bolder;">View</a></div>
+          </div>
+          <div class="card reveal"><img src="images/cr3 (5).webp" alt="Distant Shore — 2020">
+        <div class="meta"><a href="images/cr3 (5).webp" style="text-decoration: none; color: #f7f7f8; font-weight: bolder;">View</a></div>
+          </div>
+          <div class="card reveal"><img src="images/img (1).jpg" alt="Distant Shore — 2020">
+        <div class="meta"><a href="images/img (1).jpg" style="text-decoration: none; color: #f7f7f8; font-weight: bolder;">View</a></div>
+          </div>
+          <div class="card reveal"><img src="images/img (2).jpg" alt="Distant Shore — 2020">
+        <div class="meta"><a href="images/img (2).jpg" style="text-decoration: none; color: #f7f7f8; font-weight: bolder;">View</a></div>
+          </div>
+          <div class="card reveal"><img src="images/IMG (3).jpg" alt="Distant Shore — 2020">
+        <div class="meta"><a href="images/IMG (3).jpg" style="text-decoration: none; color: #f7f7f8; font-weight: bolder;">View</a></div>
+          </div>
+          <div class="card reveal"><img src="images/IMG (4).jpg" alt="Distant Shore — 2020">
+        <div class="meta"><a href="images/IMG (4).jpg" style="text-decoration: none; color: #f7f7f8; font-weight: bolder;">View</a></div>
+          </div>
+          <div class="card reveal"><img src="images/IMG (5).jpg" alt="Distant Shore — 2020">
+        <div class="meta"><a href="images/IMG (5).jpg" style="text-decoration: none; color: #f7f7f8; font-weight: bolder;">View</a></div>
+          </div>
+          <div class="card reveal"><img src="images/IMG (6).jpg" alt="Distant Shore — 2020">
+        <div class="meta"><a href="images/IMG (6).jpg" style="text-decoration: none; color: #f7f7f8; font-weight: bolder; ">View</a></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <div class="bio">
+          <h3>About Asif Ghayaz</h3>
+          <p>Asif Ghayaz is a Pakistani artist known for finely rendered pen‑and‑ink drawings and mixed‑media paintings.
+            Trained under the mentorship of Eqbal Mehdi, Asif’s practice blends disciplined draftsmanship with a
+            contemplative use of space and texture. His works—ranging from intimate portraits to architectural
+            studies—explore memory, place, and quiet narratives through meticulous linework.</p>
+
+          <p>Beyond gallery exhibitions across Pakistan, Asif’s illustrations and artworks have been commissioned for
+            institutional publications and calendars, demonstrating a practice that moves comfortably between
+            illustration and fine art.</p>
+
+          <h4 style="margin-top:12px">Training & Influences</h4>
+          <ul class="list-compact">
+            <li>Studied under Eqbal Mehdi</li>
+            <li>Early training in observational drawing and technical draftsmanship</li>
+          </ul>
+
+          <h4 style="margin-top:12px">Selected Highlights</h4>
+          <ul class="list-compact">
+            <li>Featured in institutional print media (AKUH projects)</li>
+            <li>Solo & group exhibitions across major Pakistani galleries</li>
+          </ul>
+        </div>
+
+        <aside class="side-card">
+          <h4>Exhibitions</h4>
+          <p style="color:var(--muted);margin:6px 0">Chromatic Fields — Solo (June 2024)</p>
+          <p style="color:var(--muted);margin:6px 0">Material Echoes — Group (Nov 2023)</p>
+
+          <h4 style="margin-top:12px">Publications</h4>
+          <p style="color:var(--muted);margin:6px 0">Featured: Contemporary Art Review (2024) • AKUH publications</p>
+        </aside>
+      </section>
+
+      <section id="contact">
+        <h3>Contact & Commissions</h3>
+        <div class="contact-wrap">
+          <form onsubmit="submitContact(event)" class="reveal"
+            style="padding:16px;border-radius:12px;background:rgba(255,255,255,0.02)">
+            <label style="font-weight:700">Name</label>
+            <input type="text" id="name" placeholder="Your name" required />
+            <label style="font-weight:700;margin-top:8px">Email</label>
+            <input type="email" id="email" placeholder="you@example.com" required />
+            <label style="font-weight:700;margin-top:8px">Subject</label>
+            <input type="text" id="subject" placeholder="Commission / enquiry" />
+            <label style="font-weight:700;margin-top:8px">Message</label>
+            <textarea id="message" rows="6" placeholder="Tell me about your project or inquiry" required></textarea>
+            <div style="display:flex;gap:10px;margin-top:10px;align-items:center">
+              <button type="submit" class="btn btn-contact">Send message</button>
+              <div style="color:var(--muted);font-size:13px">Or email: <a
+                href="mailto:asifghayaz831@gmail.com"style="text-decoration: none; color: #f7f7f8;"
+                  target="_blank" class="btn"><i class="fa-solid fa-envelope"></i>asifghayaz831@gmail.com</a></div>
+            </div>
+            <div id="status" style="color:var(--muted);font-size:13px;margin-top:8px"></div>
+          </form>
+
+          <aside class="side-card">
+            <h4>Studio & Social</h4>
+            <p style="color:var(--muted);margin:6px 0">Studio visits by appointment. Based in (city).</p>
+            <div class="socials" style="text-decoration: none; color: #f7f7f8;">
+              <a href="https://www.instagram.com/asifghayaz/" style="text-decoration: none; padding: 8px; background-color: #ffffff36; color: #f7f7f8;" aria-label="Instagram">Instagram</a>
+              <a href="https://www.facebook.com/asif.ghayaz/" style="text-decoration: none; padding: 8px; background-color: #ffffff36; color: #f7f7f8;" aria-label="Facebook">Facebook</a>
+              <a href="#" aria-label="X" style="text-decoration: none; font-weight: bolder; padding: 8px; background-color: #ffffff36; color: #f7f7f8;">X</a>
+              <a href="https://wa.me/+923463355657" style="text-decoration: none; padding: 8px; background-color: #ffffff36; color: #f7f7f8;" aria-label="Buy prints">Shop</a>
+            </div>
+            <h4 style="margin-top:12px">Newsletter</h4>
+            <p style="color:var(--muted);margin:6px 0">Get show announcements and new work updates.</p>
+            <form onsubmit="subscribe(event)">
+              <input id="subscribe-email" type="email" placeholder="Your email" required />
+              <button type="submit" class="btn btn-outline" style="margin-top:8px">Subscribe</button>
+            </form>
+          </aside>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      © <span id="year"></span> Asif Ghayaz — All rights reserved
+    </footer>
+  </div>
+
+  <script>
+    // runtime values
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // reveal on load
+    window.addEventListener('load', () => { document.querySelectorAll('.reveal').forEach((el, i) => setTimeout(() => el.classList.add('in'), i * 120)) });
+
+    // gallery lightbox
+    document.querySelectorAll('.masonry .card').forEach(card => {
+      card.addEventListener('click', () => {
+        const img = card.querySelector('img');
+        openLightbox(img.src, card.querySelector('.meta')?.textContent || '');
+      });
+    });
+    const lightbox = document.getElementById('lightbox');
+    function openLightbox(src, caption) {
+      document.getElementById('lightbox-img').src = src;
+      document.getElementById('lightbox-caption').textContent = caption;
+      lightbox.classList.add('open');
+      lightbox.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeLightbox() {
+      lightbox.classList.remove('open');
+      lightbox.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+    }
+    lightbox.addEventListener('click', (e) => { if (e.target === lightbox) closeLightbox(); });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeLightbox(); });
+
+    // contact -> mailto (no backend)
+    function submitContact(e) {
+      e.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const subject = document.getElementById('subject').value.trim() || 'Commission inquiry';
+      const message = document.getElementById('message').value.trim();
+      if (!name || !email || !message) { document.getElementById('status').textContent = 'Please complete required fields.'; return }
+      const body = encodeURIComponent(`Name: ${name}
+Email: ${email}
+
+${message}`);
+      window.location.href = `mailto:asifghayaz831@gmail.com?subject=${encodeURIComponent(subject)}&body=${body}`;
+      document.getElementById('status').textContent = 'Opening your mail client...';
+    }
+
+    // newsletter subscribe (client-only placeholder)
+    function subscribe(e) { e.preventDefault(); const em = document.getElementById('subscribe-email').value; alert('Thanks — we\'ll notify you at ' + em) }
+
+    // graceful fallback for missing images
+    document.querySelectorAll('img').forEach(img => img.addEventListener('error', () => {
+      img.src = 'data:image/svg+xml;utf8,' + encodeURIComponent(`<?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800"><defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#ffcf67"/><stop offset="1" stop-color="#ff7a59"/></linearGradient></defs><rect width="100%" height="100%" fill="url(#g)"/><text x="50%" y="50%" font-family="Inter, Arial" font-size="36" text-anchor="middle" fill="#111">Replace with artwork image</text></svg>`);
+    }))
+  </script>
+</body>
+
+</html>
