@@ -729,3 +729,108 @@ form input{
     font-size: 13px;
   }
 }
+/* =========================
+   CINEMATIC INTRO
+========================= */
+#cinematic-intro {
+  position: fixed;
+  inset: 0;
+  background: #0b0b0d;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  animation: introFadeOut 1.6s ease forwards;
+  animation-delay: 4.8s;
+}
+
+.cinematic-bg {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 30% 30%, rgba(255,207,103,.15), transparent 40%),
+    radial-gradient(circle at 70% 70%, rgba(255,122,89,.12), transparent 45%),
+    linear-gradient(180deg, #0b0b0d, #050506);
+}
+
+.cinematic-content {
+  position: relative;
+  text-align: center;
+  color: #f7f7f8;
+  animation: introRise 1.6s ease forwards;
+}
+
+.intro-kicker {
+  display: block;
+  letter-spacing: .3em;
+  font-size: 12px;
+  color: #bfc5cc;
+  margin-bottom: 12px;
+  opacity: 0;
+  animation: fadeIn 1.2s ease forwards;
+  animation-delay: .6s;
+}
+
+.cinematic-content h1 {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(42px, 6vw, 72px);
+  margin: 0;
+  opacity: 0;
+  animation: fadeIn 1.4s ease forwards;
+  animation-delay: 1.2s;
+}
+
+.cinematic-content p {
+  margin-top: 14px;
+  font-size: 15px;
+  color: #bfc5cc;
+  opacity: 0;
+  animation: fadeIn 1.2s ease forwards;
+  animation-delay: 2s;
+}
+
+/* Film grain */
+.film-grain {
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)' opacity='.08'/%3E%3C/svg%3E");
+  pointer-events: none;
+  mix-blend-mode: overlay;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  to { opacity: 1; }
+}
+
+@keyframes introRise {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes introFadeOut {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@media (max-width: 480px) {
+  .cinematic-content h1 {
+    font-size: 36px;
+  }
+
+  .cinematic-content p {
+    font-size: 13px;
+  }
+
+  .intro-kicker {
+    letter-spacing: .2em;
+  }
+}

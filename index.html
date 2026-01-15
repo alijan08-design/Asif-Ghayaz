@@ -95,6 +95,19 @@
 </head>
 
 <body>
+  <!-- ===== CINEMATIC INTRO ===== -->
+<div id="cinematic-intro">
+  <div class="cinematic-bg"></div>
+
+  <div class="cinematic-content">
+    <span class="intro-kicker">Artist Portfolio</span>
+    <h1>Asif Ghayaz</h1>
+    <p>Paintings • Drawings • Calligraphy</p>
+  </div>
+
+  <div class="film-grain"></div>
+</div>
+
   <div class="wrap">
     <header>
       <div class="brand">
@@ -703,6 +716,25 @@ document.querySelectorAll('.dropdown').forEach(drop => {
     });
   });
 });
+/* =========================
+   CINEMATIC INTRO CONTROL
+========================= */
+document.addEventListener('DOMContentLoaded', () => {
+  const intro = document.getElementById('cinematic-intro');
+
+  if (!intro) return;
+
+  // Skip intro on click
+  intro.addEventListener('click', () => {
+    intro.remove();
+  });
+
+  // Auto remove after animation
+  setTimeout(() => {
+    intro?.remove();
+  }, 5600);
+});
+
 </script>
 </body>
 </html>
