@@ -1,81 +1,3 @@
-<<<<<<< HEAD
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <!-- Home Page -->
-  <url>
-    <loc>https://asifghayaz.com/</loc>
-    <lastmod>2025-12-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  <!-- Landscape Page -->
-  <url>
-    <loc>https://asifghayaz.com/landscape.html</loc>
-    <lastmod>2025-12-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Horse Page -->
-  <url>
-    <loc>https://asifghayaz.com/horses.html</loc>
-    <lastmod>2025-12-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Calligraphy Page -->
-  <url>
-    <loc>https://asifghayaz.com/calligraphy.html</loc>
-    <lastmod>2025-12-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Architecture Page -->
-  <url>
-    <loc>https://asifghayaz.com/architect.html</loc>
-    <lastmod>2025-12-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Master Peice Page -->
-  <url>
-    <loc>https://asifghayaz.com/master.html</loc>
-    <lastmod>2025-12-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Regular Art Page -->
-  <url>
-    <loc>https://asifghayaz.com/regular.html</loc>
-    <lastmod>2025-12-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Other Art Page -->
-  <url>
-    <loc>https://asifghayaz.com/other.html</loc>
-    <lastmod>2025-12-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- About Page -->
-  <url>
-    <loc>https://asifghayaz.com/about.html</loc>
-    <lastmod>2025-12-18</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-</urlset>
-=======
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
@@ -119,7 +41,7 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Master Peice Page -->
+  <!-- Master Piece Page -->
   <url>
     <loc>https://asifghayaz.com/master.html</loc>
     <lastmod>2025-12-18</lastmod>
@@ -152,4 +74,3 @@
   </url>
 
 </urlset>
->>>>>>> 53a9eb4959a5231fefd17c37d1d6ef831c19e709
