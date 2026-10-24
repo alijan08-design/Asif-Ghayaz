@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 User-agent: *
 Allow: /
-=======
 User-agent: *
 Allow: /
->>>>>>> 53a9eb4959a5231fefd17c37d1d6ef831c19e709
 Sitemap: https://asifghayaz.com/sitemap.xml
