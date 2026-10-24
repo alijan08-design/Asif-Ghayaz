@@ -64,7 +64,7 @@
   <!-- ===== PERFORMANCE ===== -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload" as="image" href="images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-46.webp" fetchpriority="high">
+  <link rel="preload" as="image" href="images/3d/asif-ghayaz-pen-and-ink-masterpiece-46-3d.webp" fetchpriority="high">
 
   <!-- ===== BOOTSTRAP ===== -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -91,10 +91,8 @@
 
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="anim.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
-  <script src="anim.js" defer></script>
+    <script src="anim.js" defer></script>
   <script src="float.js" defer></script>
-  <script src="gallery3d.js" defer></script>
   <script src="extras.js" defer></script>
 
 </head>
@@ -112,6 +110,8 @@
 
   <div class="film-grain"></div>
 </div>
+
+  <script>try{if(sessionStorage.getItem('introSeen'))document.getElementById('cinematic-intro').remove();else sessionStorage.setItem('introSeen','1')}catch(e){}</script>
 
   <div class="wrap">
     <header>
@@ -171,11 +171,11 @@ pen-and-ink</a>
         </div>
         <div class="hero-right">
           <div class="art">
-            <img src="images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-46.webp" alt="Pen and ink masterpiece by Asif Ghayaz" class="hero-img hero-slide active" data-title="Pen & ink masterpiece" width="600" height="800" fetchpriority="high" />
-            <img src="images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-12.webp" alt="Pen and ink masterpiece by Asif Ghayaz" class="hero-img hero-slide" data-title="Pen & ink masterpiece" width="600" height="800" loading="lazy" />
-            <img src="images/pen-and-ink/horses/asif-ghayaz-pen-and-ink-horse-09.webp" alt="Pen and ink horse drawing by Asif Ghayaz" class="hero-img hero-slide" data-title="Horse study in pen & ink" width="600" height="800" loading="lazy" />
-            <img src="images/landscapes/asif-ghayaz-landscape-painting-17.webp" alt="Landscape painting by Asif Ghayaz" class="hero-img hero-slide" data-title="Landscape painting" width="600" height="800" loading="lazy" />
-            <img src="images/calligraphy/asif-ghayaz-islamic-calligraphy-03.webp" alt="Islamic calligraphy artwork by Asif Ghayaz" class="hero-img hero-slide" data-title="Islamic calligraphy" width="600" height="800" loading="lazy" />
+            <img src="images/3d/asif-ghayaz-pen-and-ink-masterpiece-46-3d.webp" alt="Pen and ink masterpiece by Asif Ghayaz" class="hero-img hero-slide active" data-title="Pen & ink masterpiece" width="600" height="800" fetchpriority="high" />
+            <img src="images/3d/asif-ghayaz-pen-and-ink-masterpiece-12-3d.webp" alt="Pen and ink masterpiece by Asif Ghayaz" class="hero-img hero-slide" data-title="Pen & ink masterpiece" width="600" height="800" loading="lazy" />
+            <img src="images/3d/asif-ghayaz-pen-and-ink-horse-09-3d.webp" alt="Pen and ink horse drawing by Asif Ghayaz" class="hero-img hero-slide" data-title="Horse study in pen & ink" width="600" height="800" loading="lazy" />
+            <img src="images/3d/asif-ghayaz-landscape-painting-17-3d.webp" alt="Landscape painting by Asif Ghayaz" class="hero-img hero-slide" data-title="Landscape painting" width="600" height="800" loading="lazy" />
+            <img src="images/3d/asif-ghayaz-islamic-calligraphy-03-3d.webp" alt="Islamic calligraphy artwork by Asif Ghayaz" class="hero-img hero-slide" data-title="Islamic calligraphy" width="600" height="800" loading="lazy" />
             <div class="overlay"></div>
             <div class="meta hero-caption">
               <span class="hero-title">Pen & ink masterpiece</span>
@@ -208,7 +208,7 @@ pen-and-ink</a>
         <div class="masonry">
 
           <div class="gallery-card">
-            <img src="images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-46.webp" loading="lazy" width="600" height="800"
+            <img data-full="images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-46.webp" width="800" height="1170" src="images/thumbs/sm/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-46.webp" loading="lazy"
               alt="Pen and ink masterpiece drawing 46 by Asif Ghayaz" />
             <div class="meta">
               <a href="images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-46.webp"
@@ -217,7 +217,7 @@ pen-and-ink</a>
           </div>
 
           <div class="gallery-card">
-            <img src="images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-50.webp" loading="lazy" width="600" height="800"
+            <img data-full="images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-50.webp" width="800" height="1128" src="images/thumbs/sm/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-50.webp" loading="lazy"
               alt="Pen and ink masterpiece drawing 50 by Asif Ghayaz" />
             <div class="meta">
               <a href="images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-50.webp"
@@ -226,7 +226,7 @@ pen-and-ink</a>
           </div>
 
           <div class="gallery-card">
-            <img src="images/pen-and-ink/portraits/asif-ghayaz-pen-and-ink-drawing-04.webp" loading="lazy" width="600" height="800"
+            <img data-full="images/pen-and-ink/portraits/asif-ghayaz-pen-and-ink-drawing-04.webp" width="800" height="574" src="images/thumbs/sm/pen-and-ink/portraits/asif-ghayaz-pen-and-ink-drawing-04.webp" loading="lazy"
               alt="Pen and ink drawing 04 by Asif Ghayaz" />
             <div class="meta">
               <a href="images/pen-and-ink/portraits/asif-ghayaz-pen-and-ink-drawing-04.webp"
@@ -235,7 +235,7 @@ pen-and-ink</a>
           </div>
 
           <div class="gallery-card">
-            <img src="images/pen-and-ink/portraits/asif-ghayaz-pen-and-ink-drawing-02.webp" loading="lazy" width="600" height="800"
+            <img data-full="images/pen-and-ink/portraits/asif-ghayaz-pen-and-ink-drawing-02.webp" width="800" height="543" src="images/thumbs/sm/pen-and-ink/portraits/asif-ghayaz-pen-and-ink-drawing-02.webp" loading="lazy"
               alt="Pen and ink drawing 02 by Asif Ghayaz" />
             <div class="meta">
               <a href="images/pen-and-ink/portraits/asif-ghayaz-pen-and-ink-drawing-02.webp"
@@ -244,7 +244,7 @@ pen-and-ink</a>
           </div>
 
           <div class="gallery-card">
-            <img src="images/pen-and-ink/horses/asif-ghayaz-pen-and-ink-horse-02.webp" loading="lazy" width="600" height="800"
+            <img data-full="images/pen-and-ink/horses/asif-ghayaz-pen-and-ink-horse-02.webp" width="800" height="1106" src="images/thumbs/sm/pen-and-ink/horses/asif-ghayaz-pen-and-ink-horse-02.webp" loading="lazy"
               alt="Pen and ink horse drawing 02 by Asif Ghayaz" />
             <div class="meta">
               <a href="images/pen-and-ink/horses/asif-ghayaz-pen-and-ink-horse-02.webp"
@@ -253,7 +253,7 @@ pen-and-ink</a>
           </div>
 
           <div class="gallery-card">
-            <img src="images/pen-and-ink/horses/asif-ghayaz-pen-and-ink-horse-09.webp" loading="lazy" width="600" height="800"
+            <img data-full="images/pen-and-ink/horses/asif-ghayaz-pen-and-ink-horse-09.webp" width="800" height="562" src="images/thumbs/sm/pen-and-ink/horses/asif-ghayaz-pen-and-ink-horse-09.webp" loading="lazy"
               alt="Pen and ink horse drawing 09 by Asif Ghayaz" />
             <div class="meta">
               <a href="images/pen-and-ink/horses/asif-ghayaz-pen-and-ink-horse-09.webp"
@@ -262,7 +262,7 @@ pen-and-ink</a>
           </div>
 
           <div class="gallery-card">
-            <img src="images/pen-and-ink/architecture/asif-ghayaz-pen-and-ink-architecture-03.webp" loading="lazy" width="600" height="800"
+            <img data-full="images/pen-and-ink/architecture/asif-ghayaz-pen-and-ink-architecture-03.webp" width="383" height="512" src="images/thumbs/sm/pen-and-ink/architecture/asif-ghayaz-pen-and-ink-architecture-03.webp" loading="lazy"
               alt="Pen and ink architectural drawing 03 by Asif Ghayaz" />
             <div class="meta">
               <a href="images/pen-and-ink/architecture/asif-ghayaz-pen-and-ink-architecture-03.webp"
@@ -271,7 +271,7 @@ pen-and-ink</a>
           </div>
 
           <div class="gallery-card">
-            <img src="images/pen-and-ink/architecture/asif-ghayaz-pen-and-ink-architecture-04.webp" loading="lazy" width="600" height="800"
+            <img data-full="images/pen-and-ink/architecture/asif-ghayaz-pen-and-ink-architecture-04.webp" width="800" height="1061" src="images/thumbs/sm/pen-and-ink/architecture/asif-ghayaz-pen-and-ink-architecture-04.webp" loading="lazy"
               alt="Pen and ink architectural drawing 04 by Asif Ghayaz" />
             <div class="meta">
               <a href="images/pen-and-ink/architecture/asif-ghayaz-pen-and-ink-architecture-04.webp"
@@ -281,7 +281,7 @@ pen-and-ink</a>
           </div>
 
           <div class="gallery-card">
-            <img src="images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-49.webp" loading="lazy" width="600" height="800"
+            <img data-full="images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-49.webp" width="800" height="1115" src="images/thumbs/sm/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-49.webp" loading="lazy"
               alt="Pen and ink masterpiece drawing 49 by Asif Ghayaz" />
             <div class="meta">
               <a href="images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-49.webp"
@@ -297,7 +297,7 @@ pen-and-ink</a>
         <h3>Landscapes</h3>
         <div class="masonry">
           <div class="gallery-card">
-            <img src="images/landscapes/asif-ghayaz-landscape-painting-17.webp" loading="lazy" width="600" height="800"
+            <img data-full="images/landscapes/asif-ghayaz-landscape-painting-17.webp" width="800" height="539" src="images/thumbs/sm/landscapes/asif-ghayaz-landscape-painting-17.webp" loading="lazy"
               alt="Landscape painting 17 by Asif Ghayaz" />
             <div class="meta">
               <a href="images/landscapes/asif-ghayaz-landscape-painting-17.webp"
@@ -307,7 +307,7 @@ pen-and-ink</a>
           </div>
 
           <div class="gallery-card">
-            <img src="images/landscapes/asif-ghayaz-landscape-painting-20.webp" loading="lazy" width="600" height="800"
+            <img data-full="images/landscapes/asif-ghayaz-landscape-painting-20.webp" width="800" height="1195" src="images/thumbs/sm/landscapes/asif-ghayaz-landscape-painting-20.webp" loading="lazy"
               alt="Landscape painting 20 by Asif Ghayaz" />
             <div class="meta">
               <a href="images/landscapes/asif-ghayaz-landscape-painting-20.webp"
@@ -317,7 +317,7 @@ pen-and-ink</a>
           </div>
 
           <div class="gallery-card">
-            <img src="images/landscapes/asif-ghayaz-landscape-painting-26.webp" loading="lazy" width="600" height="800"
+            <img data-full="images/landscapes/asif-ghayaz-landscape-painting-26.webp" width="800" height="532" src="images/thumbs/sm/landscapes/asif-ghayaz-landscape-painting-26.webp" loading="lazy"
               alt="Landscape painting 26 by Asif Ghayaz" />
             <div class="meta">
               <a href="images/landscapes/asif-ghayaz-landscape-painting-26.webp"
@@ -326,7 +326,7 @@ pen-and-ink</a>
           </div>
 
           <div class="gallery-card">
-            <img src="images/landscapes/asif-ghayaz-landscape-painting-28.webp" loading="lazy" width="600" height="800"
+            <img data-full="images/landscapes/asif-ghayaz-landscape-painting-28.webp" width="800" height="1215" src="images/thumbs/sm/landscapes/asif-ghayaz-landscape-painting-28.webp" loading="lazy"
               alt="Landscape painting 28 by Asif Ghayaz" />
             <div class="meta">
               <a href="images/landscapes/asif-ghayaz-landscape-painting-28.webp"
@@ -335,7 +335,7 @@ pen-and-ink</a>
           </div>
 
           <div class="gallery-card">
-            <img src="images/landscapes/asif-ghayaz-landscape-painting-50.webp" loading="lazy" width="600" height="800"
+            <img data-full="images/landscapes/asif-ghayaz-landscape-painting-50.webp" width="800" height="1187" src="images/thumbs/sm/landscapes/asif-ghayaz-landscape-painting-50.webp" loading="lazy"
               alt="Landscape painting 50 by Asif Ghayaz" />
             <div class="meta">
               <a href="images/landscapes/asif-ghayaz-landscape-painting-50.webp"
@@ -345,7 +345,7 @@ pen-and-ink</a>
           </div>
 
           <div class="gallery-card">
-            <img src="images/landscapes/asif-ghayaz-landscape-painting-60.webp" loading="lazy" width="600" height="800"
+            <img data-full="images/landscapes/asif-ghayaz-landscape-painting-60.webp" width="800" height="1141" src="images/thumbs/sm/landscapes/asif-ghayaz-landscape-painting-60.webp" loading="lazy"
               alt="Landscape painting 60 by Asif Ghayaz" />
             <div class="meta">
               <a href="images/landscapes/asif-ghayaz-landscape-painting-60.webp"
@@ -361,7 +361,7 @@ pen-and-ink</a>
         <h3>Calligraphy</h3>
         <div class="masonry">
           <div class="gallery-card">
-            <img src="images/calligraphy/asif-ghayaz-islamic-calligraphy-01.webp" loading="lazy" width="600" height="800"
+            <img data-full="images/calligraphy/asif-ghayaz-islamic-calligraphy-01.webp" width="509" height="720" src="images/thumbs/sm/calligraphy/asif-ghayaz-islamic-calligraphy-01.webp" loading="lazy"
               alt="Islamic calligraphy artwork 01 by Asif Ghayaz" />
             <div class="meta">
               <a href="images/calligraphy/asif-ghayaz-islamic-calligraphy-01.webp" style="text-decoration: none; color: #f7f7f8; font-weight: bold;">View</a>
@@ -370,7 +370,7 @@ pen-and-ink</a>
           </div>
 
           <div class="gallery-card">
-            <img src="images/calligraphy/asif-ghayaz-islamic-calligraphy-02.webp" loading="lazy" width="600" height="800"
+            <img data-full="images/calligraphy/asif-ghayaz-islamic-calligraphy-02.webp" width="675" height="960" src="images/thumbs/sm/calligraphy/asif-ghayaz-islamic-calligraphy-02.webp" loading="lazy"
               alt="Islamic calligraphy artwork 02 by Asif Ghayaz" />
             <div class="meta">
               <a href="images/calligraphy/asif-ghayaz-islamic-calligraphy-02.webp" style="text-decoration: none; color: #f7f7f8; font-weight: bold;">View</a>
@@ -379,7 +379,7 @@ pen-and-ink</a>
           </div>
 
           <div class="gallery-card">
-            <img src="images/calligraphy/asif-ghayaz-islamic-calligraphy-03.webp" loading="lazy" width="600" height="800"
+            <img data-full="images/calligraphy/asif-ghayaz-islamic-calligraphy-03.webp" width="688" height="960" src="images/thumbs/sm/calligraphy/asif-ghayaz-islamic-calligraphy-03.webp" loading="lazy"
               alt="Islamic calligraphy artwork 03 by Asif Ghayaz" />
             <div class="meta">
               <a href="images/calligraphy/asif-ghayaz-islamic-calligraphy-03.webp"
@@ -389,7 +389,7 @@ pen-and-ink</a>
           </div>
 
           <div class="gallery-card">
-            <img src="images/calligraphy/asif-ghayaz-islamic-calligraphy-04.webp" loading="lazy" width="600" height="800"
+            <img data-full="images/calligraphy/asif-ghayaz-islamic-calligraphy-04.webp" width="700" height="960" src="images/thumbs/sm/calligraphy/asif-ghayaz-islamic-calligraphy-04.webp" loading="lazy"
               alt="Islamic calligraphy artwork 04 by Asif Ghayaz" />
             <div class="meta">
               <a href="images/calligraphy/asif-ghayaz-islamic-calligraphy-04.webp" style="text-decoration: none; color: #f7f7f8; font-weight: bold;">View</a>
@@ -398,7 +398,7 @@ pen-and-ink</a>
           </div>
 
           <div class="gallery-card">
-            <img src="images/calligraphy/asif-ghayaz-islamic-calligraphy-05.webp" loading="lazy" width="600" height="800"
+            <img data-full="images/calligraphy/asif-ghayaz-islamic-calligraphy-05.webp" width="688" height="960" src="images/thumbs/sm/calligraphy/asif-ghayaz-islamic-calligraphy-05.webp" loading="lazy"
               alt="Islamic calligraphy artwork 05 by Asif Ghayaz" />
             <div class="meta">
               <a href="images/calligraphy/asif-ghayaz-islamic-calligraphy-05.webp" style="text-decoration: none; color: #f7f7f8; font-weight: bold;">View</a>
@@ -407,7 +407,7 @@ pen-and-ink</a>
           </div>
 
           <div class="gallery-card">
-            <img src="images/calligraphy/asif-ghayaz-islamic-calligraphy-06.webp" loading="lazy" width="600" height="800"
+            <img data-full="images/calligraphy/asif-ghayaz-islamic-calligraphy-06.webp" width="800" height="2215" src="images/thumbs/sm/calligraphy/asif-ghayaz-islamic-calligraphy-06.webp" loading="lazy"
               alt="Islamic calligraphy artwork 06 by Asif Ghayaz" />
             <div class="meta">
               <a href="images/calligraphy/asif-ghayaz-islamic-calligraphy-06.webp" style="text-decoration: none; color: #f7f7f8; font-weight: bold;">View</a>
@@ -421,7 +421,7 @@ pen-and-ink</a>
         <h3>Others</h3>
         <div class="masonry">
           <div class="gallery-card">
-            <img src="images/still-life/asif-ghayaz-still-life-painting-06.webp" loading="lazy" width="600" height="800"
+            <img data-full="images/still-life/asif-ghayaz-still-life-painting-06.webp" width="800" height="1010" src="images/thumbs/sm/still-life/asif-ghayaz-still-life-painting-06.webp" loading="lazy"
               alt="Still life painting 06 by Asif Ghayaz" />
             <div class="meta">
               <a href="images/still-life/asif-ghayaz-still-life-painting-06.webp"
@@ -430,7 +430,7 @@ pen-and-ink</a>
           </div>
 
           <div class="gallery-card">
-            <img src="images/still-life/asif-ghayaz-still-life-painting-07.webp" loading="lazy" width="600" height="800"
+            <img data-full="images/still-life/asif-ghayaz-still-life-painting-07.webp" width="800" height="636" src="images/thumbs/sm/still-life/asif-ghayaz-still-life-painting-07.webp" loading="lazy"
               alt="Still life painting 07 by Asif Ghayaz" />
             <div class="meta">
               <a href="images/still-life/asif-ghayaz-still-life-painting-07.webp"
@@ -439,7 +439,7 @@ pen-and-ink</a>
           </div>
 
           <div class="gallery-card">
-            <img src="images/still-life/asif-ghayaz-still-life-painting-01.webp" loading="lazy" width="600" height="800"
+            <img data-full="images/still-life/asif-ghayaz-still-life-painting-01.webp" width="220" height="162" src="images/thumbs/sm/still-life/asif-ghayaz-still-life-painting-01.webp" loading="lazy"
               alt="Still life painting 01 by Asif Ghayaz" />
             <div class="meta">
               <a href="images/still-life/asif-ghayaz-still-life-painting-01.webp"
@@ -448,7 +448,7 @@ pen-and-ink</a>
           </div>
 
           <div class="gallery-card">
-            <img src="images/abstract-art/asif-ghayaz-abstract-painting-04.webp" loading="lazy" width="600" height="800"
+            <img data-full="images/abstract-art/asif-ghayaz-abstract-painting-04.webp" width="800" height="1200" src="images/thumbs/sm/abstract-art/asif-ghayaz-abstract-painting-04.webp" loading="lazy"
               alt="Abstract painting 04 by Asif Ghayaz" />
             <div class="meta">
               <a href="images/abstract-art/asif-ghayaz-abstract-painting-04.webp"
@@ -457,7 +457,7 @@ pen-and-ink</a>
           </div>
 
           <div class="gallery-card">
-            <img src="images/abstract-art/asif-ghayaz-abstract-painting-07.webp" loading="lazy" width="600" height="800"
+            <img data-full="images/abstract-art/asif-ghayaz-abstract-painting-07.webp" width="800" height="1168" src="images/thumbs/sm/abstract-art/asif-ghayaz-abstract-painting-07.webp" loading="lazy"
               alt="Abstract painting 07 by Asif Ghayaz" />
             <div class="meta">
               <a href="images/abstract-art/asif-ghayaz-abstract-painting-07.webp"
@@ -466,7 +466,7 @@ pen-and-ink</a>
           </div>
 
           <div class="gallery-card">
-            <img src="images/abstract-art/asif-ghayaz-abstract-painting-02.webp" loading="lazy" width="600" height="800"
+            <img data-full="images/abstract-art/asif-ghayaz-abstract-painting-02.webp" width="800" height="928" src="images/thumbs/sm/abstract-art/asif-ghayaz-abstract-painting-02.webp" loading="lazy"
               alt="Abstract painting 02 by Asif Ghayaz" />
             <div class="meta">
               <a href="images/abstract-art/asif-ghayaz-abstract-painting-02.webp"
@@ -594,6 +594,28 @@ pen-and-ink</a>
 
   </div>
 
+<script>
+/* 3D gallery: download Three.js + the gallery only when the section is about to scroll into view */
+(function () {
+  var sec = document.getElementById('gallery3d');
+  if (!sec) return;
+  var started = false;
+  function add(src, cb) { var t = document.createElement('script'); t.src = src; t.onload = cb; t.onerror = cb; document.body.appendChild(t); }
+  function start() {
+    if (started) return; started = true;
+    if (location.protocol === 'file:') add('gallery3d.js');           // local file: image ring, no WebGL needed
+    else add('https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js', function () { add('gallery3d.js'); });
+  }
+  function near() { return sec.getBoundingClientRect().top < window.innerHeight + 500; }
+  function check() { if (!started && near()) { start(); removeEventListener('scroll', check); removeEventListener('resize', check); } }
+  addEventListener('scroll', check, { passive: true });
+  addEventListener('resize', check);
+  if ('IntersectionObserver' in window) {
+    new IntersectionObserver(function (e, o) { if (e[0].isIntersecting) { o.disconnect(); start(); } }, { rootMargin: '500px' }).observe(sec);
+  }
+  check();
+})();
+</script>
 <script defer>
 /* =========================
    GLOBAL CONSTANTS
@@ -752,7 +774,7 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   intro.addEventListener("click", removeIntro);
-  setTimeout(removeIntro, 5600);
+  setTimeout(removeIntro, 2900);
 });
 
 

@@ -30,9 +30,9 @@
   const $ = (s, c = document) => c.querySelector(s);
   const $$ = (s, c = document) => [...c.querySelectorAll(s)];
 
-  // The cinematic intro lasts ~5.6s unless clicked; start hero text after it.
+  // The cinematic intro lasts ~2.9s unless clicked; start hero text just before it ends.
   const introOn = !!$('#cinematic-intro');
-  const heroDelay = introOn ? 4800 : 200;
+  const heroDelay = introOn ? 2200 : 100;
 
   /* ---------- scroll progress beam ---------- */
   const beam = document.createElement('div');
@@ -195,12 +195,17 @@
     const show = i => {
       idx = (i + cards.length) % cards.length;
       const src = $('img', cards[idx]);
+      const full = src.dataset.full;
       lbImg.classList.remove('ready', 'zoom');
       lbImg.onload = () => lbImg.classList.add('ready');
-      lbImg.src = src.currentSrc || src.src;
+      lbImg.src = src.currentSrc || src.src;          // light copy shows instantly
       lbImg.alt = src.alt;
       cap.innerHTML = `<b>${idx + 1} / ${cards.length}</b> &nbsp;·&nbsp; ${src.alt}`;
-      [idx - 1, idx + 1].forEach(j => { const p = new Image(); p.src = $('img', cards[(j + cards.length) % cards.length]).src; });
+      if (full) {                                       // then swap in the full-resolution file
+        const hi = new Image(), mine = idx;
+        hi.onload = () => { if (mine === idx && lb.classList.contains('open')) { lbImg.onload = null; lbImg.src = full; } };
+        hi.src = full;
+      }
     };
     const open = i => {
       lastFocus = document.activeElement;
