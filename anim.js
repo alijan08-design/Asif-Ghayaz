@@ -5,6 +5,28 @@
   const root = document.documentElement;
   root.classList.add('js-anim');
 
+  /* ---------- clean URLs ---------- */
+  // Live site: show /landscape instead of /landscape.html (the file still answers to both).
+  if (/^https?:$/.test(location.protocol) && /\.html$/.test(location.pathname)) {
+    const clean = location.pathname.replace(/index\.html$/, '').replace(/\.html$/, '');
+    history.replaceState(null, '', (clean || '/') + location.search + location.hash);
+  }
+  // Opened straight from disk (file://) there is no server to map /landscape -> landscape.html, so add it back.
+  const fixLocalLinks = () => {
+    if (location.protocol !== 'file:') return;
+    document.querySelectorAll('a[href]').forEach(a => {
+      const raw = a.getAttribute('href');
+      if (!raw || raw.startsWith('#') || /^(https?:|mailto:|tel:|javascript:)/i.test(raw)) return;
+      const u = new URL(raw, location.href);
+      if (u.protocol !== 'file:') return;
+      if (u.pathname.endsWith('/')) u.pathname += 'index.html';
+      else if (!/\.[a-z0-9]+$/i.test(u.pathname.split('/').pop())) u.pathname += '.html';
+      a.href = u.href;
+    });
+  };
+  addEventListener('DOMContentLoaded', () => setTimeout(fixLocalLinks, 0));
+  addEventListener('load', fixLocalLinks);
+
   const $ = (s, c = document) => c.querySelector(s);
   const $$ = (s, c = document) => [...c.querySelectorAll(s)];
 
@@ -234,14 +256,15 @@
 
   /* ---------- floating dock ---------- */
   const base = new URL('./', (document.currentScript || $('script[src$="anim.js"]')).src).href;
-  const here = location.pathname.split('/').pop() || 'index.html';
+  const keyOf = path => path.replace(/index\.html$/, '').replace(/\.html$/, '').replace(/\/$/, '').split('/').pop();
+  const here = keyOf(location.pathname);
   const links = [
-    ['index.html', 'Home', 'fa-house'],
-    ['landscape.html', 'Landscapes', 'fa-mountain-sun'],
-    ['calligraphy.html', 'Calligraphy', 'fa-feather-pointed'],
-    ['master.html', 'Masterpieces', 'fa-crown'],
-    ['horses.html', 'Horses', 'fa-horse'],
-    ['architectr/architect.html', 'Architecture', 'fa-landmark'],
+    ['', 'Home', 'fa-house'],
+    ['landscape', 'Landscapes', 'fa-mountain-sun'],
+    ['calligraphy', 'Calligraphy', 'fa-feather-pointed'],
+    ['master', 'Masterpieces', 'fa-crown'],
+    ['horses', 'Horses', 'fa-horse'],
+    ['architecture/', 'Architecture', 'fa-landmark'],
     ['#contact', 'Contact', 'fa-envelope'],
   ];
   const dock = document.createElement('div');
@@ -249,7 +272,7 @@
   dock.className = 'dock'; dock.setAttribute('aria-label', 'Quick navigation');
   dock.innerHTML = links.map(([h, l, ic], i) => {
     const href = h.startsWith('#') ? h : base + h;
-    const active = !h.startsWith('#') && h.split('/').pop() === here ? ' active' : '';
+    const active = !h.startsWith('#') && keyOf(h) === here ? ' active' : '';
     return (i === links.length - 1 ? '<span class="sep"></span>' : '') +
       `<a href="${href}" class="${active.trim()}" data-label="${l}" aria-label="${l}"><i class="fa-solid ${ic}"></i></a>`;
   }).join('');
