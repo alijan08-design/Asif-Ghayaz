@@ -1,68 +1,1145 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
-  <!-- Home Page -->
   <url>
     <loc>https://asifghayaz.com/</loc>
-    <lastmod>2025-12-18</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-46.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 46</image:title>
+      <image:caption>Pen and ink masterpiece drawing 46 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-50.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 50</image:title>
+      <image:caption>Pen and ink masterpiece drawing 50 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/portraits/asif-ghayaz-pen-and-ink-drawing-04.webp</image:loc>
+      <image:title>Pen &amp; Ink Drawing · No. 4</image:title>
+      <image:caption>Pen and ink drawing 04 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/portraits/asif-ghayaz-pen-and-ink-drawing-02.webp</image:loc>
+      <image:title>Pen &amp; Ink Drawing · No. 2</image:title>
+      <image:caption>Pen and ink drawing 02 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/horses/asif-ghayaz-pen-and-ink-horse-02.webp</image:loc>
+      <image:title>Pen &amp; Ink Horse Drawing · No. 2</image:title>
+      <image:caption>Pen and ink horse drawing 02 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/horses/asif-ghayaz-pen-and-ink-horse-09.webp</image:loc>
+      <image:title>Pen &amp; Ink Horse Drawing · No. 9</image:title>
+      <image:caption>Pen and ink horse drawing 09 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/architecture/asif-ghayaz-pen-and-ink-architecture-03.webp</image:loc>
+      <image:title>Pen &amp; Ink Architectural Drawing · No. 3</image:title>
+      <image:caption>Pen and ink architectural drawing 03 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/architecture/asif-ghayaz-pen-and-ink-architecture-04.webp</image:loc>
+      <image:title>Pen &amp; Ink Architectural Drawing · No. 4</image:title>
+      <image:caption>Pen and ink architectural drawing 04 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-49.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 49</image:title>
+      <image:caption>Pen and ink masterpiece drawing 49 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-17.webp</image:loc>
+      <image:title>Landscape Painting · No. 17</image:title>
+      <image:caption>Landscape painting 17 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-20.webp</image:loc>
+      <image:title>Landscape Painting · No. 20</image:title>
+      <image:caption>Landscape painting 20 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-26.webp</image:loc>
+      <image:title>Landscape Painting · No. 26</image:title>
+      <image:caption>Landscape painting 26 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-28.webp</image:loc>
+      <image:title>Landscape Painting · No. 28</image:title>
+      <image:caption>Landscape painting 28 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-50.webp</image:loc>
+      <image:title>Landscape Painting · No. 50</image:title>
+      <image:caption>Landscape painting 50 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-60.webp</image:loc>
+      <image:title>Landscape Painting · No. 60</image:title>
+      <image:caption>Landscape painting 60 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/calligraphy/asif-ghayaz-islamic-calligraphy-01.webp</image:loc>
+      <image:title>Islamic Calligraphy Artwork · No. 1</image:title>
+      <image:caption>Islamic calligraphy artwork 01 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/calligraphy/asif-ghayaz-islamic-calligraphy-02.webp</image:loc>
+      <image:title>Islamic Calligraphy Artwork · No. 2</image:title>
+      <image:caption>Islamic calligraphy artwork 02 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/calligraphy/asif-ghayaz-islamic-calligraphy-03.webp</image:loc>
+      <image:title>Islamic Calligraphy Artwork · No. 3</image:title>
+      <image:caption>Islamic calligraphy artwork 03 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/calligraphy/asif-ghayaz-islamic-calligraphy-04.webp</image:loc>
+      <image:title>Islamic Calligraphy Artwork · No. 4</image:title>
+      <image:caption>Islamic calligraphy artwork 04 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/calligraphy/asif-ghayaz-islamic-calligraphy-05.webp</image:loc>
+      <image:title>Islamic Calligraphy Artwork · No. 5</image:title>
+      <image:caption>Islamic calligraphy artwork 05 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/calligraphy/asif-ghayaz-islamic-calligraphy-06.webp</image:loc>
+      <image:title>Islamic Calligraphy Artwork · No. 6</image:title>
+      <image:caption>Islamic calligraphy artwork 06 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/still-life/asif-ghayaz-still-life-painting-06.webp</image:loc>
+      <image:title>Still Life Painting · No. 6</image:title>
+      <image:caption>Still life painting 06 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/still-life/asif-ghayaz-still-life-painting-07.webp</image:loc>
+      <image:title>Still Life Painting · No. 7</image:title>
+      <image:caption>Still life painting 07 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/still-life/asif-ghayaz-still-life-painting-01.webp</image:loc>
+      <image:title>Still Life Painting · No. 1</image:title>
+      <image:caption>Still life painting 01 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/abstract-art/asif-ghayaz-abstract-painting-04.webp</image:loc>
+      <image:title>Abstract Painting · No. 4</image:title>
+      <image:caption>Abstract painting 04 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/abstract-art/asif-ghayaz-abstract-painting-07.webp</image:loc>
+      <image:title>Abstract Painting · No. 7</image:title>
+      <image:caption>Abstract painting 07 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/abstract-art/asif-ghayaz-abstract-painting-02.webp</image:loc>
+      <image:title>Abstract Painting · No. 2</image:title>
+      <image:caption>Abstract painting 02 by Asif Ghayaz</image:caption>
+    </image:image>
   </url>
 
-  <!-- Landscape Page -->
   <url>
     <loc>https://asifghayaz.com/landscape</loc>
-    <lastmod>2025-12-18</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-04.webp</image:loc>
+      <image:title>Landscape Painting · No. 4</image:title>
+      <image:caption>Landscape painting 04 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-06.webp</image:loc>
+      <image:title>Landscape Painting · No. 6</image:title>
+      <image:caption>Landscape painting 06 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-01.webp</image:loc>
+      <image:title>Landscape Painting · No. 1</image:title>
+      <image:caption>Landscape painting 01 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-02.webp</image:loc>
+      <image:title>Landscape Painting · No. 2</image:title>
+      <image:caption>Landscape painting 02 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-03.webp</image:loc>
+      <image:title>Landscape Painting · No. 3</image:title>
+      <image:caption>Landscape painting 03 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-05.webp</image:loc>
+      <image:title>Landscape Painting · No. 5</image:title>
+      <image:caption>Landscape painting 05 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-07.webp</image:loc>
+      <image:title>Landscape Painting · No. 7</image:title>
+      <image:caption>Landscape painting 07 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-08.webp</image:loc>
+      <image:title>Landscape Painting · No. 8</image:title>
+      <image:caption>Landscape painting 08 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-09.webp</image:loc>
+      <image:title>Landscape Painting · No. 9</image:title>
+      <image:caption>Landscape painting 09 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-10.webp</image:loc>
+      <image:title>Landscape Painting · No. 10</image:title>
+      <image:caption>Landscape painting 10 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-11.webp</image:loc>
+      <image:title>Landscape Artwork</image:title>
+      <image:caption>Landscape artwork by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-12.webp</image:loc>
+      <image:title>Landscape Painting · No. 12</image:title>
+      <image:caption>Landscape painting 12 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-13.webp</image:loc>
+      <image:title>Landscape Painting · No. 13</image:title>
+      <image:caption>Landscape painting 13 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-14.webp</image:loc>
+      <image:title>Landscape Painting · No. 14</image:title>
+      <image:caption>Landscape painting 14 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-15.webp</image:loc>
+      <image:title>Landscape Painting · No. 15</image:title>
+      <image:caption>Landscape painting 15 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-16.webp</image:loc>
+      <image:title>Landscape Painting · No. 16</image:title>
+      <image:caption>Landscape painting 16 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-17.webp</image:loc>
+      <image:title>Landscape Painting · No. 17</image:title>
+      <image:caption>Landscape painting 17 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-18.webp</image:loc>
+      <image:title>Landscape Painting · No. 18</image:title>
+      <image:caption>Landscape painting 18 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-19.webp</image:loc>
+      <image:title>Landscape Painting · No. 19</image:title>
+      <image:caption>Landscape painting 19 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-20.webp</image:loc>
+      <image:title>Landscape Painting · No. 20</image:title>
+      <image:caption>Landscape painting 20 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-21.webp</image:loc>
+      <image:title>Landscape Painting · No. 21</image:title>
+      <image:caption>Landscape painting 21 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-22.webp</image:loc>
+      <image:title>Landscape Painting · No. 22</image:title>
+      <image:caption>Landscape painting 22 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-23.webp</image:loc>
+      <image:title>Landscape Painting · No. 23</image:title>
+      <image:caption>Landscape painting 23 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-24.webp</image:loc>
+      <image:title>Landscape Painting · No. 24</image:title>
+      <image:caption>Landscape painting 24 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-25.webp</image:loc>
+      <image:title>Landscape Painting · No. 25</image:title>
+      <image:caption>Landscape painting 25 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-26.webp</image:loc>
+      <image:title>Landscape Painting · No. 26</image:title>
+      <image:caption>Landscape painting 26 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-27.webp</image:loc>
+      <image:title>Landscape Painting · No. 27</image:title>
+      <image:caption>Landscape painting 27 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-28.webp</image:loc>
+      <image:title>Landscape Painting · No. 28</image:title>
+      <image:caption>Landscape painting 28 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-29.webp</image:loc>
+      <image:title>Landscape Painting · No. 29</image:title>
+      <image:caption>Landscape painting 29 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-30.webp</image:loc>
+      <image:title>Landscape Painting · No. 30</image:title>
+      <image:caption>Landscape painting 30 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-31.webp</image:loc>
+      <image:title>Landscape Painting · No. 31</image:title>
+      <image:caption>Landscape painting 31 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-32.webp</image:loc>
+      <image:title>Landscape Painting · No. 32</image:title>
+      <image:caption>Landscape painting 32 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-33.webp</image:loc>
+      <image:title>Landscape Painting · No. 33</image:title>
+      <image:caption>Landscape painting 33 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-34.webp</image:loc>
+      <image:title>Landscape Painting · No. 34</image:title>
+      <image:caption>Landscape painting 34 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-35.webp</image:loc>
+      <image:title>Landscape Painting · No. 35</image:title>
+      <image:caption>Landscape painting 35 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-36.webp</image:loc>
+      <image:title>Landscape Painting · No. 36</image:title>
+      <image:caption>Landscape painting 36 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-38.webp</image:loc>
+      <image:title>Landscape Painting · No. 38</image:title>
+      <image:caption>Landscape painting 38 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-39.webp</image:loc>
+      <image:title>Landscape Painting · No. 39</image:title>
+      <image:caption>Landscape painting 39 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-40.webp</image:loc>
+      <image:title>Landscape Painting · No. 40</image:title>
+      <image:caption>Landscape painting 40 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-41.webp</image:loc>
+      <image:title>Landscape Painting · No. 41</image:title>
+      <image:caption>Landscape painting 41 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-42.webp</image:loc>
+      <image:title>Landscape Painting · No. 42</image:title>
+      <image:caption>Landscape painting 42 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-43.webp</image:loc>
+      <image:title>Landscape Painting · No. 43</image:title>
+      <image:caption>Landscape painting 43 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-44.webp</image:loc>
+      <image:title>Landscape Painting · No. 44</image:title>
+      <image:caption>Landscape painting 44 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-45.webp</image:loc>
+      <image:title>Landscape Painting · No. 45</image:title>
+      <image:caption>Landscape painting 45 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-46.webp</image:loc>
+      <image:title>Landscape Painting · No. 46</image:title>
+      <image:caption>Landscape painting 46 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-47.webp</image:loc>
+      <image:title>Landscape Painting · No. 47</image:title>
+      <image:caption>Landscape painting 47 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-48.webp</image:loc>
+      <image:title>Landscape Painting · No. 48</image:title>
+      <image:caption>Landscape painting 48 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-49.webp</image:loc>
+      <image:title>Landscape Painting · No. 49</image:title>
+      <image:caption>Landscape painting 49 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-50.webp</image:loc>
+      <image:title>Landscape Painting · No. 50</image:title>
+      <image:caption>Landscape painting 50 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-51.webp</image:loc>
+      <image:title>Landscape Painting · No. 51</image:title>
+      <image:caption>Landscape painting 51 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-52.webp</image:loc>
+      <image:title>Landscape Painting · No. 52</image:title>
+      <image:caption>Landscape painting 52 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-53.webp</image:loc>
+      <image:title>Landscape Painting · No. 53</image:title>
+      <image:caption>Landscape painting 53 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-54.webp</image:loc>
+      <image:title>Landscape Painting · No. 54</image:title>
+      <image:caption>Landscape painting 54 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-55.webp</image:loc>
+      <image:title>Landscape Painting · No. 55</image:title>
+      <image:caption>Landscape painting 55 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-56.webp</image:loc>
+      <image:title>Landscape Painting · No. 56</image:title>
+      <image:caption>Landscape painting 56 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-57.webp</image:loc>
+      <image:title>Landscape Painting · No. 57</image:title>
+      <image:caption>Landscape painting 57 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-58.webp</image:loc>
+      <image:title>Landscape Painting · No. 58</image:title>
+      <image:caption>Landscape painting 58 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-59.webp</image:loc>
+      <image:title>Landscape Painting · No. 59</image:title>
+      <image:caption>Landscape painting 59 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-60.webp</image:loc>
+      <image:title>Landscape Painting · No. 60</image:title>
+      <image:caption>Landscape painting 60 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-61.webp</image:loc>
+      <image:title>Landscape Painting · No. 61</image:title>
+      <image:caption>Landscape painting 61 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-62.webp</image:loc>
+      <image:title>Landscape Painting · No. 62</image:title>
+      <image:caption>Landscape painting 62 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/landscapes/asif-ghayaz-landscape-painting-63.webp</image:loc>
+      <image:title>Landscape Painting · No. 63</image:title>
+      <image:caption>Landscape painting 63 by Asif Ghayaz</image:caption>
+    </image:image>
   </url>
 
-  <!-- Horse Page -->
-  <url>
-    <loc>https://asifghayaz.com/horses</loc>
-    <lastmod>2025-12-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Calligraphy Page -->
   <url>
     <loc>https://asifghayaz.com/calligraphy</loc>
-    <lastmod>2025-12-18</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/calligraphy/asif-ghayaz-islamic-calligraphy-21.webp</image:loc>
+      <image:title>Islamic Calligraphy Artwork · No. 21</image:title>
+      <image:caption>Islamic calligraphy artwork 21 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/calligraphy/asif-ghayaz-islamic-calligraphy-22.webp</image:loc>
+      <image:title>Islamic Calligraphy Artwork · No. 22</image:title>
+      <image:caption>Islamic calligraphy artwork 22 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/calligraphy/asif-ghayaz-islamic-calligraphy-01.webp</image:loc>
+      <image:title>Islamic Calligraphy Artwork · No. 1</image:title>
+      <image:caption>Islamic calligraphy artwork 01 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/calligraphy/asif-ghayaz-islamic-calligraphy-02.webp</image:loc>
+      <image:title>Islamic Calligraphy Artwork · No. 2</image:title>
+      <image:caption>Islamic calligraphy artwork 02 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/calligraphy/asif-ghayaz-islamic-calligraphy-03.webp</image:loc>
+      <image:title>Islamic Calligraphy Artwork · No. 3</image:title>
+      <image:caption>Islamic calligraphy artwork 03 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/calligraphy/asif-ghayaz-islamic-calligraphy-04.webp</image:loc>
+      <image:title>Islamic Calligraphy Artwork · No. 4</image:title>
+      <image:caption>Islamic calligraphy artwork 04 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/calligraphy/asif-ghayaz-islamic-calligraphy-05.webp</image:loc>
+      <image:title>Islamic Calligraphy Artwork · No. 5</image:title>
+      <image:caption>Islamic calligraphy artwork 05 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/calligraphy/asif-ghayaz-islamic-calligraphy-06.webp</image:loc>
+      <image:title>Islamic Calligraphy Artwork · No. 6</image:title>
+      <image:caption>Islamic calligraphy artwork 06 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/calligraphy/asif-ghayaz-islamic-calligraphy-07.webp</image:loc>
+      <image:title>Islamic Calligraphy Artwork · No. 7</image:title>
+      <image:caption>Islamic calligraphy artwork 07 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/calligraphy/asif-ghayaz-islamic-calligraphy-08.webp</image:loc>
+      <image:title>Islamic Calligraphy Artwork · No. 8</image:title>
+      <image:caption>Islamic calligraphy artwork 08 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/calligraphy/asif-ghayaz-islamic-calligraphy-09.webp</image:loc>
+      <image:title>Islamic Calligraphy Artwork · No. 9</image:title>
+      <image:caption>Islamic calligraphy artwork 09 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/calligraphy/asif-ghayaz-islamic-calligraphy-10.webp</image:loc>
+      <image:title>Islamic Calligraphy Artwork · No. 10</image:title>
+      <image:caption>Islamic calligraphy artwork 10 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/calligraphy/asif-ghayaz-islamic-calligraphy-11.webp</image:loc>
+      <image:title>Islamic Calligraphy Artwork · No. 11</image:title>
+      <image:caption>Islamic calligraphy artwork 11 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/calligraphy/asif-ghayaz-islamic-calligraphy-12.webp</image:loc>
+      <image:title>Islamic Calligraphy Artwork · No. 12</image:title>
+      <image:caption>Islamic calligraphy artwork 12 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/calligraphy/asif-ghayaz-islamic-calligraphy-13.webp</image:loc>
+      <image:title>Islamic Calligraphy Artwork · No. 13</image:title>
+      <image:caption>Islamic calligraphy artwork 13 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/calligraphy/asif-ghayaz-islamic-calligraphy-14.webp</image:loc>
+      <image:title>Islamic Calligraphy Artwork · No. 14</image:title>
+      <image:caption>Islamic calligraphy artwork 14 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/calligraphy/asif-ghayaz-islamic-calligraphy-15.webp</image:loc>
+      <image:title>Islamic Calligraphy Artwork · No. 15</image:title>
+      <image:caption>Islamic calligraphy artwork 15 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/calligraphy/asif-ghayaz-islamic-calligraphy-16.webp</image:loc>
+      <image:title>Islamic Calligraphy Artwork · No. 16</image:title>
+      <image:caption>Islamic calligraphy artwork 16 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/calligraphy/asif-ghayaz-islamic-calligraphy-17.webp</image:loc>
+      <image:title>Islamic Calligraphy Artwork · No. 17</image:title>
+      <image:caption>Islamic calligraphy artwork 17 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/calligraphy/asif-ghayaz-islamic-calligraphy-18.webp</image:loc>
+      <image:title>Islamic Calligraphy Artwork · No. 18</image:title>
+      <image:caption>Islamic calligraphy artwork 18 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/calligraphy/asif-ghayaz-islamic-calligraphy-19.webp</image:loc>
+      <image:title>Islamic Calligraphy Artwork · No. 19</image:title>
+      <image:caption>Islamic calligraphy artwork 19 by Asif Ghayaz</image:caption>
+    </image:image>
   </url>
 
-  <!-- Architecture Page -->
-  <url>
-    <loc>https://asifghayaz.com/architecture/</loc>
-    <lastmod>2025-12-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Master Peice Page -->
   <url>
     <loc>https://asifghayaz.com/master</loc>
-    <lastmod>2025-12-18</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-01.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 1</image:title>
+      <image:caption>Pen and ink masterpiece drawing 01 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-29.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 29</image:title>
+      <image:caption>Pen and ink masterpiece drawing 29 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-48.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 48</image:title>
+      <image:caption>Pen and ink masterpiece drawing 48 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-49.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 49</image:title>
+      <image:caption>Pen and ink masterpiece drawing 49 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-50.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 50</image:title>
+      <image:caption>Pen and ink masterpiece drawing 50 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-44.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 44</image:title>
+      <image:caption>Pen and ink masterpiece drawing 44 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-45.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 45</image:title>
+      <image:caption>Pen and ink masterpiece drawing 45 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-47.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 47</image:title>
+      <image:caption>Pen and ink masterpiece drawing 47 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-46.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 46</image:title>
+      <image:caption>Pen and ink masterpiece drawing 46 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-11.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 11</image:title>
+      <image:caption>Pen and ink masterpiece drawing 11 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-12.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 12</image:title>
+      <image:caption>Pen and ink masterpiece drawing 12 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-13.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 13</image:title>
+      <image:caption>Pen and ink masterpiece drawing 13 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-14.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 14</image:title>
+      <image:caption>Pen and ink masterpiece drawing 14 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-15.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 15</image:title>
+      <image:caption>Pen and ink masterpiece drawing 15 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-16.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 16</image:title>
+      <image:caption>Pen and ink masterpiece drawing 16 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-17.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 17</image:title>
+      <image:caption>Pen and ink masterpiece drawing 17 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-18.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 18</image:title>
+      <image:caption>Pen and ink masterpiece drawing 18 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-03.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 3</image:title>
+      <image:caption>Pen and ink masterpiece drawing 03 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-19.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 19</image:title>
+      <image:caption>Pen and ink masterpiece drawing 19 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-20.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 20</image:title>
+      <image:caption>Pen and ink masterpiece drawing 20 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-21.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 21</image:title>
+      <image:caption>Pen and ink masterpiece drawing 21 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-23.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 23</image:title>
+      <image:caption>Pen and ink masterpiece drawing 23 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-24.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 24</image:title>
+      <image:caption>Pen and ink masterpiece drawing 24 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-25.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 25</image:title>
+      <image:caption>Pen and ink masterpiece drawing 25 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-26.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 26</image:title>
+      <image:caption>Pen and ink masterpiece drawing 26 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-27.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 27</image:title>
+      <image:caption>Pen and ink masterpiece drawing 27 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-28.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 28</image:title>
+      <image:caption>Pen and ink masterpiece drawing 28 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-04.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 4</image:title>
+      <image:caption>Pen and ink masterpiece drawing 04 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-30.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 30</image:title>
+      <image:caption>Pen and ink masterpiece drawing 30 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-31.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 31</image:title>
+      <image:caption>Pen and ink masterpiece drawing 31 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-32.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 32</image:title>
+      <image:caption>Pen and ink masterpiece drawing 32 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-33.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 33</image:title>
+      <image:caption>Pen and ink masterpiece drawing 33 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-34.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 34</image:title>
+      <image:caption>Pen and ink masterpiece drawing 34 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-35.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 35</image:title>
+      <image:caption>Pen and ink masterpiece drawing 35 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-37.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 37</image:title>
+      <image:caption>Pen and ink masterpiece drawing 37 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-39.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 39</image:title>
+      <image:caption>Pen and ink masterpiece drawing 39 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-05.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 5</image:title>
+      <image:caption>Pen and ink masterpiece drawing 05 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-40.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 40</image:title>
+      <image:caption>Pen and ink masterpiece drawing 40 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-41.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 41</image:title>
+      <image:caption>Pen and ink masterpiece drawing 41 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-42.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 42</image:title>
+      <image:caption>Pen and ink masterpiece drawing 42 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-43.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 43</image:title>
+      <image:caption>Pen and ink masterpiece drawing 43 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-06.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 6</image:title>
+      <image:caption>Pen and ink masterpiece drawing 06 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-07.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 7</image:title>
+      <image:caption>Pen and ink masterpiece drawing 07 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-08.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 8</image:title>
+      <image:caption>Pen and ink masterpiece drawing 08 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-09.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 9</image:title>
+      <image:caption>Pen and ink masterpiece drawing 09 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/masterpieces/asif-ghayaz-pen-and-ink-masterpiece-10.webp</image:loc>
+      <image:title>Pen &amp; Ink Masterpiece Drawing · No. 10</image:title>
+      <image:caption>Pen and ink masterpiece drawing 10 by Asif Ghayaz</image:caption>
+    </image:image>
   </url>
 
-  <!-- Regular Art Page -->
   <url>
     <loc>https://asifghayaz.com/regular</loc>
-    <lastmod>2025-12-18</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/portraits/asif-ghayaz-pen-and-ink-drawing-03.webp</image:loc>
+      <image:title>Pen &amp; Ink Drawing · No. 3</image:title>
+      <image:caption>Pen and ink drawing 03 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/portraits/asif-ghayaz-pen-and-ink-drawing-05.webp</image:loc>
+      <image:title>Pen &amp; Ink Drawing · No. 5</image:title>
+      <image:caption>Pen and ink drawing 05 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/portraits/asif-ghayaz-pen-and-ink-drawing-07.webp</image:loc>
+      <image:title>Pen &amp; Ink Drawing · No. 7</image:title>
+      <image:caption>Pen and ink drawing 07 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/portraits/asif-ghayaz-pen-and-ink-drawing-06.webp</image:loc>
+      <image:title>Pen &amp; Ink Drawing · No. 6</image:title>
+      <image:caption>Pen and ink drawing 06 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/portraits/asif-ghayaz-pen-and-ink-drawing-04.webp</image:loc>
+      <image:title>Pen &amp; Ink Drawing · No. 4</image:title>
+      <image:caption>Pen and ink drawing 04 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/portraits/asif-ghayaz-pen-and-ink-drawing-21.webp</image:loc>
+      <image:title>Pen &amp; Ink Drawing · No. 21</image:title>
+      <image:caption>Pen and ink drawing 21 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/portraits/asif-ghayaz-pen-and-ink-drawing-20.webp</image:loc>
+      <image:title>Pen &amp; Ink Drawing · No. 20</image:title>
+      <image:caption>Pen and ink drawing 20 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/portraits/asif-ghayaz-pen-and-ink-drawing-19.webp</image:loc>
+      <image:title>Pen &amp; Ink Drawing · No. 19</image:title>
+      <image:caption>Pen and ink drawing 19 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/portraits/asif-ghayaz-pen-and-ink-drawing-18.webp</image:loc>
+      <image:title>Pen &amp; Ink Drawing · No. 18</image:title>
+      <image:caption>Pen and ink drawing 18 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/portraits/asif-ghayaz-pen-and-ink-drawing-02.webp</image:loc>
+      <image:title>Pen &amp; Ink Drawing · No. 2</image:title>
+      <image:caption>Pen and ink drawing 02 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/portraits/asif-ghayaz-pen-and-ink-drawing-17.webp</image:loc>
+      <image:title>Pen &amp; Ink Drawing · No. 17</image:title>
+      <image:caption>Pen and ink drawing 17 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/portraits/asif-ghayaz-pen-and-ink-drawing-16.webp</image:loc>
+      <image:title>Pen &amp; Ink Drawing · No. 16</image:title>
+      <image:caption>Pen and ink drawing 16 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/portraits/asif-ghayaz-pen-and-ink-drawing-15.webp</image:loc>
+      <image:title>Pen &amp; Ink Drawing · No. 15</image:title>
+      <image:caption>Pen and ink drawing 15 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/portraits/asif-ghayaz-pen-and-ink-drawing-14.webp</image:loc>
+      <image:title>Pen &amp; Ink Drawing · No. 14</image:title>
+      <image:caption>Pen and ink drawing 14 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/portraits/asif-ghayaz-pen-and-ink-drawing-13.webp</image:loc>
+      <image:title>Pen &amp; Ink Drawing · No. 13</image:title>
+      <image:caption>Pen and ink drawing 13 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/portraits/asif-ghayaz-pen-and-ink-drawing-12.webp</image:loc>
+      <image:title>Pen &amp; Ink Drawing · No. 12</image:title>
+      <image:caption>Pen and ink drawing 12 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/portraits/asif-ghayaz-pen-and-ink-drawing-11.webp</image:loc>
+      <image:title>Pen &amp; Ink Drawing · No. 11</image:title>
+      <image:caption>Pen and ink drawing 11 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/portraits/asif-ghayaz-pen-and-ink-drawing-10.webp</image:loc>
+      <image:title>Pen &amp; Ink Drawing · No. 10</image:title>
+      <image:caption>Pen and ink drawing 10 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/portraits/asif-ghayaz-pen-and-ink-drawing-09.webp</image:loc>
+      <image:title>Pen &amp; Ink Drawing · No. 9</image:title>
+      <image:caption>Pen and ink drawing 09 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/portraits/asif-ghayaz-pen-and-ink-drawing-08.webp</image:loc>
+      <image:title>Pen &amp; Ink Drawing · No. 8</image:title>
+      <image:caption>Pen and ink drawing 08 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/portraits/asif-ghayaz-pen-and-ink-drawing-01.webp</image:loc>
+      <image:title>Pen &amp; Ink Drawing · No. 1</image:title>
+      <image:caption>Pen and ink drawing 01 by Asif Ghayaz</image:caption>
+    </image:image>
   </url>
 
-  <!-- Other Art Page -->
   <url>
-    <loc>https://asifghayaz.com/other</loc>
-    <lastmod>2025-12-18</lastmod>
+    <loc>https://asifghayaz.com/horses</loc>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/horses/asif-ghayaz-pen-and-ink-horse-03.webp</image:loc>
+      <image:title>Pen &amp; Ink Horse Drawing · No. 3</image:title>
+      <image:caption>Pen and ink horse drawing 03 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/horses/asif-ghayaz-pen-and-ink-horse-04.webp</image:loc>
+      <image:title>Pen &amp; Ink Horse Drawing · No. 4</image:title>
+      <image:caption>Pen and ink horse drawing 04 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/horses/asif-ghayaz-pen-and-ink-horse-01.webp</image:loc>
+      <image:title>Pen &amp; Ink Horse Drawing · No. 1</image:title>
+      <image:caption>Pen and ink horse drawing 01 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/horses/asif-ghayaz-pen-and-ink-horse-02.webp</image:loc>
+      <image:title>Pen &amp; Ink Horse Drawing · No. 2</image:title>
+      <image:caption>Pen and ink horse drawing 02 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/horses/asif-ghayaz-pen-and-ink-horse-05.webp</image:loc>
+      <image:title>Pen &amp; Ink Horse Drawing · No. 5</image:title>
+      <image:caption>Pen and ink horse drawing 05 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/horses/asif-ghayaz-pen-and-ink-horse-06.webp</image:loc>
+      <image:title>Pen &amp; Ink Horse Drawing · No. 6</image:title>
+      <image:caption>Pen and ink horse drawing 06 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/horses/asif-ghayaz-pen-and-ink-horse-07.webp</image:loc>
+      <image:title>Pen &amp; Ink Horse Drawing · No. 7</image:title>
+      <image:caption>Pen and ink horse drawing 07 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/horses/asif-ghayaz-pen-and-ink-horse-08.webp</image:loc>
+      <image:title>Pen &amp; Ink Horse Drawing · No. 8</image:title>
+      <image:caption>Pen and ink horse drawing 08 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/horses/asif-ghayaz-pen-and-ink-horse-09.webp</image:loc>
+      <image:title>Pen &amp; Ink Horse Drawing · No. 9</image:title>
+      <image:caption>Pen and ink horse drawing 09 by Asif Ghayaz</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://asifghayaz.com/other</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/still-life/asif-ghayaz-still-life-painting-01.webp</image:loc>
+      <image:title>Still Life Painting · No. 1</image:title>
+      <image:caption>Still life painting 01 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/abstract-art/asif-ghayaz-abstract-painting-05.webp</image:loc>
+      <image:title>Abstract Painting · No. 5</image:title>
+      <image:caption>Abstract painting 05 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/abstract-art/asif-ghayaz-abstract-painting-01.webp</image:loc>
+      <image:title>Abstract Painting · No. 1</image:title>
+      <image:caption>Abstract painting 01 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/abstract-art/asif-ghayaz-abstract-painting-10.webp</image:loc>
+      <image:title>Abstract Painting · No. 10</image:title>
+      <image:caption>Abstract painting 10 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/abstract-art/asif-ghayaz-abstract-painting-02.webp</image:loc>
+      <image:title>Abstract Painting · No. 2</image:title>
+      <image:caption>Abstract painting 02 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/abstract-art/asif-ghayaz-abstract-painting-03.webp</image:loc>
+      <image:title>Abstract Painting · No. 3</image:title>
+      <image:caption>Abstract painting 03 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/abstract-art/asif-ghayaz-abstract-painting-04.webp</image:loc>
+      <image:title>Abstract Painting · No. 4</image:title>
+      <image:caption>Abstract painting 04 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/abstract-art/asif-ghayaz-abstract-painting-06.webp</image:loc>
+      <image:title>Abstract Painting · No. 6</image:title>
+      <image:caption>Abstract painting 06 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/abstract-art/asif-ghayaz-abstract-painting-07.webp</image:loc>
+      <image:title>Abstract Painting · No. 7</image:title>
+      <image:caption>Abstract painting 07 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/abstract-art/asif-ghayaz-abstract-painting-08.webp</image:loc>
+      <image:title>Abstract Painting · No. 8</image:title>
+      <image:caption>Abstract painting 08 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/abstract-art/asif-ghayaz-abstract-painting-09.webp</image:loc>
+      <image:title>Abstract Painting · No. 9</image:title>
+      <image:caption>Abstract painting 09 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/still-life/asif-ghayaz-still-life-painting-02.webp</image:loc>
+      <image:title>Still Life Painting · No. 2</image:title>
+      <image:caption>Still life painting 02 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/still-life/asif-ghayaz-still-life-painting-03.webp</image:loc>
+      <image:title>Still Life Painting · No. 3</image:title>
+      <image:caption>Still life painting 03 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/still-life/asif-ghayaz-still-life-painting-04.webp</image:loc>
+      <image:title>Still Life Painting · No. 4</image:title>
+      <image:caption>Still life painting 04 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/still-life/asif-ghayaz-still-life-painting-05.webp</image:loc>
+      <image:title>Still Life Painting · No. 5</image:title>
+      <image:caption>Still life painting 05 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/still-life/asif-ghayaz-still-life-painting-06.webp</image:loc>
+      <image:title>Still Life Painting · No. 6</image:title>
+      <image:caption>Still life painting 06 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/still-life/asif-ghayaz-still-life-painting-07.webp</image:loc>
+      <image:title>Still Life Painting · No. 7</image:title>
+      <image:caption>Still life painting 07 by Asif Ghayaz</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://asifghayaz.com/architecture/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/architecture/asif-ghayaz-pen-and-ink-architecture-04.webp</image:loc>
+      <image:title>Pen &amp; Ink Architectural Drawing · No. 4</image:title>
+      <image:caption>Pen and ink architectural drawing 04 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/architecture/asif-ghayaz-pen-and-ink-architecture-06.webp</image:loc>
+      <image:title>Pen &amp; Ink Architectural Drawing · No. 6</image:title>
+      <image:caption>Pen and ink architectural drawing 06 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/architecture/asif-ghayaz-pen-and-ink-architecture-01.webp</image:loc>
+      <image:title>Pen &amp; Ink Architectural Drawing · No. 1</image:title>
+      <image:caption>Pen and ink architectural drawing 01 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/architecture/asif-ghayaz-pen-and-ink-architecture-02.webp</image:loc>
+      <image:title>Pen &amp; Ink Architectural Drawing · No. 2</image:title>
+      <image:caption>Pen and ink architectural drawing 02 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/architecture/asif-ghayaz-pen-and-ink-architecture-03.webp</image:loc>
+      <image:title>Pen &amp; Ink Architectural Drawing · No. 3</image:title>
+      <image:caption>Pen and ink architectural drawing 03 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/architecture/asif-ghayaz-pen-and-ink-architecture-05.webp</image:loc>
+      <image:title>Pen &amp; Ink Architectural Drawing · No. 5</image:title>
+      <image:caption>Pen and ink architectural drawing 05 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/architecture/asif-ghayaz-pen-and-ink-architecture-07.webp</image:loc>
+      <image:title>Pen &amp; Ink Architectural Drawing · No. 7</image:title>
+      <image:caption>Pen and ink architectural drawing 07 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/architecture/asif-ghayaz-pen-and-ink-architecture-08.webp</image:loc>
+      <image:title>Pen &amp; Ink Architectural Drawing · No. 8</image:title>
+      <image:caption>Pen and ink architectural drawing 08 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/architecture/asif-ghayaz-pen-and-ink-architecture-09.webp</image:loc>
+      <image:title>Pen &amp; Ink Architectural Drawing · No. 9</image:title>
+      <image:caption>Pen and ink architectural drawing 09 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/architecture/asif-ghayaz-pen-and-ink-architecture-10.webp</image:loc>
+      <image:title>Pen &amp; Ink Architectural Drawing · No. 10</image:title>
+      <image:caption>Pen and ink architectural drawing 10 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/architecture/asif-ghayaz-pen-and-ink-architecture-11.webp</image:loc>
+      <image:title>Pen &amp; Ink Architectural Drawing · No. 11</image:title>
+      <image:caption>Pen and ink architectural drawing 11 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/architecture/asif-ghayaz-pen-and-ink-architecture-12.webp</image:loc>
+      <image:title>Pen &amp; Ink Architectural Drawing · No. 12</image:title>
+      <image:caption>Pen and ink architectural drawing 12 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/architecture/asif-ghayaz-pen-and-ink-architecture-13.webp</image:loc>
+      <image:title>Pen &amp; Ink Architectural Drawing · No. 13</image:title>
+      <image:caption>Pen and ink architectural drawing 13 by Asif Ghayaz</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://asifghayaz.com/images/pen-and-ink/architecture/asif-ghayaz-pen-and-ink-architecture-14.webp</image:loc>
+      <image:title>Pen &amp; Ink Architectural Drawing · No. 14</image:title>
+      <image:caption>Pen and ink architectural drawing 14 by Asif Ghayaz</image:caption>
+    </image:image>
   </url>
 
 </urlset>

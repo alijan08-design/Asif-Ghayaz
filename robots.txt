@@ -1,5 +1,46 @@
+# Asif Ghayaz — https://asifghayaz.com
+
+# Everyone, including Google, Bing and AI search / answer engines, may read the site.
 User-agent: *
 Allow: /
-User-agent: *
+
+# AI search and answer engines (these cite and link back to the site): allowed
+User-agent: OAI-SearchBot
 Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+# Crawlers that collect images and text to TRAIN AI models: not allowed.
+# (Change "Disallow: /" to "Allow: /" under any of these to permit training use.)
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
 Sitemap: https://asifghayaz.com/sitemap.xml
